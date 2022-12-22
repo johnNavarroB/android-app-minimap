@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+
+    android:orientation = "vertical"
+
+    android:background = "@drawable/view_holder_background_box">
+
+
+    <ImageView
+        android:id = "@+id/headerImage"
+
+        android:layout_width = "90dp"
+        android:layout_height = "90dp"
+
+        tools:srcCompat = "@drawable/camera"
+        android:contentDescription = "@string/imageDescription"
+
+        android:layout_marginTop = "24dp"
+        android:layout_marginStart = "24dp"
+        android:layout_marginEnd = "24dp"
+
+        android:textAppearance = "?attr/textAppearanceHeadline6"
+
+        android:text = "@string/username"/>
+
+
+    <TextView
+        android:id = "@+id/headerUsername"
+
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        android:layout_marginTop = "5dp"
+        android:layout_marginStart = "24dp"
+        android:layout_marginEnd = "24dp"
+
+        android:textAppearance = "?attr/textAppearanceHeadline6"
+
+        android:text = "@string/username"/>
+
+
+    <TextView
+        android:id = "@+id/headerEmail"
+
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+
+        android:layout_marginBottom = "24dp"
+        android:layout_marginStart = "24dp"
+        android:layout_marginEnd = "24dp"
+
+        android:textAppearance = "?attr/textAppearanceBody2"
+        android:textColor = "@color/material_on_surface_emphasis_medium"
+
+        android:text = "@string/emailSample"/>
+
+
+</LinearLayout>

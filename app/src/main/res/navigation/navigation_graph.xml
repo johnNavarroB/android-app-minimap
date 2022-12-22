@@ -1,0 +1,115 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<navigation
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+
+    android:id = "@+id/navigation.xml"
+
+    app:startDestination = "@id/loginFragment">
+
+
+    <fragment
+
+        android:label = "LoginFragment"
+        tools:layout = "@layout/login_fragment"
+
+        android:id = "@+id/loginFragment"
+        android:name = "com.example.minimap.fragment.LoginFragment">
+
+        <action
+            android:id = "@+id/showWaypoints"
+            app:destination = "@id/waypointListFragment"/>
+
+        <action
+            android:id = "@+id/toSignUp"
+            app:destination = "@id/signUpFragment"/>
+
+    </fragment>
+
+
+    <fragment
+
+        android:label = "SignUpFragment"
+        tools:layout = "@layout/sign_up_fragment"
+
+        android:id = "@+id/signUpFragment"
+        android:name = "com.example.minimap.fragment.SignUpFragment">
+
+        <action
+            android:id = "@+id/showWaypoints"
+            app:destination = "@id/waypointListFragment"/>
+
+        <action
+            android:id = "@+id/backToLogin"
+            app:destination = "@id/loginFragment"/>
+
+    </fragment>
+
+
+    <fragment
+
+        android:label = "WaypointListFragment"
+        tools:layout = "@layout/waypoint_list_fragment"
+
+        android:id = "@+id/waypointListFragment"
+        android:name = "com.example.minimap.fragment.WaypointListFragment">
+
+        <action
+            android:id = "@+id/waypointDetails"
+            app:destination = "@id/waypointDetailsFragment"/>
+
+        <action
+            android:id = "@+id/newWaypoint"
+            app:destination = "@id/mapFragment"/>
+
+    </fragment>
+
+
+    <fragment
+
+        android:label = "MapFragment"
+        tools:layout = "@layout/map_fragment"
+
+        android:id = "@+id/mapFragment"
+        android:name = "com.example.minimap.fragment.MapFragment">
+
+        <action
+            android:id = "@+id/createWaypoint"
+            app:destination = "@id/waypointDetailsFragment"/>
+
+    </fragment>
+
+
+    <fragment
+
+        android:label = "WaypointDetailsFragment"
+        tools:layout = "@layout/waypoint_details_fragment"
+
+        android:id = "@+id/waypointDetailsFragment"
+        android:name = "com.example.minimap.fragment.WaypointDetailsFragment">
+
+        <action
+            android:id = "@+id/returnToWaypointList"
+            app:destination = "@id/waypointListFragment"/>
+
+        <argument
+            android:name = "waypointId"
+            app:argType = "integer"/>
+
+        <argument
+            android:name = "latitude"
+            app:argType = "string"/>
+
+        <argument
+            android:name = "longitude"
+            app:argType = "string"/>
+
+        <argument
+            android:name = "creatingNewWaypoint"
+            app:argType = "boolean"/>
+
+    </fragment>
+
+
+</navigation>

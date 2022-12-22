@@ -1,0 +1,74 @@
+<resources>
+
+    <string name = "app_name">Minimap</string>
+
+    <string name = "signUp">Sign Up</string>
+    <string name = "emailSample">email@sample.com</string>
+    <string name = "email">Email address</string>
+    <string name = "username">Username</string>
+    <string name = "password">Password</string>
+    <string name = "repPassword">Repeat password</string>
+    <string name = "haveAccountQ">Have an account?</string>
+
+    <string name = "login">Login</string>
+    <string name = "noAccountQ">Don\'t have an account?</string>
+    <string name = "loginWith">Login with</string>
+    <string name = "google">Option to login with google account</string>
+
+    <string name = "navigationDrawerOption1">Waypoints</string>
+    <string name = "navigationDrawerOption2">Map</string>
+    <string name = "addWaypoint">+</string>
+
+    <string name = "search">Search…</string>
+    <string name = "imageDescription">A photo representing a waypoint that can be taken with the camera</string>
+    <string name = "waypointId">Nº 0</string>
+    <string name = "waypointName">Nº 0: Sample waypoint</string>
+    <string name = "waypointLatitude">Lat:</string>
+    <string name = "waypointLongitude">Long:</string>
+
+    <string name = "takePhotoButton">Take photo</string>
+    <string name = "samplePosition">-0.0</string>
+    <string name = "sampleWaypointName">New waypoint</string>
+    <string name = "hintWaypointName">Waypoint name</string>
+    <string name = "hintWaypointType">Type</string>
+    <string name = "discardChanges">Discard</string>
+    <string name = "saveChanges">Save</string>
+
+    <string-array name = "waypointTypes">
+
+        <item>Markets</item>
+        <item>Supermarkets</item>
+        <item>Hypermarkets</item>
+        <item>Providers</item>
+        <item>Restaurants</item>
+        <item>Fast food</item>
+        <item>Takeaway</item>
+        <item>Coffee shops</item>
+        <item>Hotels</item>
+        <item>Gas stations</item>
+        <item>Pharmacy</item>
+        <item>Hospitals</item>
+        <item>Shopping centers</item>
+        <item>Transport</item>
+        <item>Cultural centers</item>
+        <item>Education</item>
+        <item>Gardens</item>
+        <item>Parks</item>
+        <item>Gyms</item>
+        <item>Sports centers</item>
+        <item>Casinos</item>
+        <item>Discos</item>
+        <item>Leisure</item>
+        <item>Zoos</item>
+        <item>Aquariums</item>
+        <item>Beaches</item>
+        <item>Theaters</item>
+        <item>Museums</item>
+        <item>Monuments</item>
+        <item>Cathedrals</item>
+        <item>Cemeteries</item>
+
+    </string-array>
+
+
+</resources>

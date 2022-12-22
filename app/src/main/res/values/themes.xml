@@ -1,0 +1,25 @@
+<resources xmlns:tools = "http://schemas.android.com/tools">
+
+    <style
+        name = "splash"
+        parent = "Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name = "android:windowBackground">@drawable/splash_screen</item>
+
+    </style>
+
+    <style name = "Theme.Minimap" parent = "Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name = "colorPrimary">@color/primary</item>
+        <item name = "colorPrimaryVariant">@color/primary_light</item>
+        <item name = "colorOnPrimary">@color/black</item>
+
+        <item name = "colorSecondary">@color/secondary</item>
+        <item name = "colorSecondaryVariant">@color/secondary_light</item>
+        <item name = "colorOnSecondary">@color/white</item>
+
+        <item name = "android:statusBarColor" tools:targetApi = "l">?attr/colorPrimaryVariant</item>
+
+    </style>
+
+</resources>

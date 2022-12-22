@@ -1,0 +1,20 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<layer-list xmlns:android = "http://schemas.android.com/apk/res/android">
+
+    <item android:drawable = "@color/background"/>
+
+    <item
+        android:top = "-100dp"
+        android:width = "300dp"
+        android:height = "300dp"
+        android:drawable = "@drawable/mini_map"
+        android:gravity = "center"/>
+
+    <item
+        android:top = "350dp"
+        android:width = "300dp"
+        android:height = "120dp"
+        android:drawable = "@drawable/title"
+        android:gravity = "center"/>
+
+</layer-list>

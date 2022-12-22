@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+
+<menu xmlns:android = "http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id = "@+id/waypoints"
+        android:checkableBehavior = "single">
+
+
+        <item
+            android:id = "@+id/waypointListFragment"
+            android:icon = "@drawable/menu"
+            android:title = "@string/navigationDrawerOption1"
+            android:checked = "true"/>
+
+
+        <item
+            android:id = "@+id/mapFragment"
+            android:icon = "@drawable/waypoint"
+            android:title = "@string/navigationDrawerOption2"/>
+
+
+    </group>
+
+</menu>
